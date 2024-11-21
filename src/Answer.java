@@ -6,14 +6,14 @@ public class Answer {
 
     public Answer(){
         Random random = new Random();
-        StringBuilder word = new StringBuilder();
+        String word = "";
 
         for (int i = 0; i < 5; i++) {
             // Generate a random lowercase letter (between 'a' and 'z')
             char randomChar = (char) ('a' + random.nextInt(26));
-            word.append(randomChar);
+            word += randomChar;
         }
-        correct_answer = word.toString();
+        correct_answer = word;
     }
 
     public void printAnswer(){
