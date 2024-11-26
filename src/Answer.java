@@ -16,6 +16,9 @@ public class Answer {
         correct_answer = word;
     }
 
+    public String answer(){
+        return correct_answer;
+    }
     public void printAnswer(){
         System.out.println("The correct word is : " + correct_answer);
     }
