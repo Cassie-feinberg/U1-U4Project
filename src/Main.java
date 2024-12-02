@@ -31,8 +31,7 @@ public class Main {
         }
         else {
             System.out.println("You did not guess the word :( \nBetter luck next time");
-            System.out.print("The correct answer is: ");
-            correct.printAnswer();
+            System.out.println(correct);
         }
     }
 }

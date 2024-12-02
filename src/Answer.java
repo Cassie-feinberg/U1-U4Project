@@ -19,7 +19,7 @@ public class Answer {
     public String answer(){
         return correct_answer;
     }
-    public void printAnswer(){
-        System.out.println("The correct word is : " + correct_answer);
+    public String toString(){
+        return ("The correct word is : " + correct_answer);
     }
 }
